@@ -34,50 +34,51 @@ function reveal() {
 window.addEventListener("scroll", reveal);
 //swiper responsive
 
-const swiperEl = document.querySelector('.mySwiper2')
-Object.assign(swiperEl, {
-  slidesPerView: 2,
-  spaceBetween: 5,
-  pagination: {
-    clickable: true,
-  },
-  breakpoints: {
-    540: {
-      slidesPerView: 1,
-      spaceBetween: 5,
-    },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 5,
-    },
-    1024: {
-      slidesPerView: 4,
-      spaceBetween: 50,
-    },
-  },
-});
-swiperEl.initialize();
-
-
-//swiper arrows
-const swiper = new Swiper('.mySwiper4', {
-  // Optional parameters
-  direction: 'vertical',
-  loop: true,
-
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-});
+//const swiperEl = document.querySelector('.mySwiper2')
+//Object.assign(swiperEl, {
+//  slidesPerView: 2,
+//  spaceBetween: 5,
+//  pagination: {
+//    clickable: true,
+//  },
+//  breakpoints: {
+//    540: {
+//      slidesPerView: 1,
+//      spaceBetween: 5,
+//    },
+//    768: {
+//      slidesPerView: 2,
+//      spaceBetween: 5,
+//    },
+//    1024: {
+//      slidesPerView: 4,
+//      spaceBetween: 50,
+//    },
+//  },
+//});
+//swiperEl.initialize();
+//
+//
+////swiper arrows
+//const swiper = new Swiper('.mySwiper4', {
+//  // Optional parameters
+//  direction: 'vertical',
+//  loop: true,
+//
+//  // If we need pagination
+//  pagination: {
+//    el: '.swiper-pagination',
+//  },
+//
+//  // Navigation arrows
+//  navigation: {
+//    nextEl: '.swiper-button-next',
+//    prevEl: '.swiper-button-prev',
+//  },
+//
+//  // And if we need scrollbar
+//  scrollbar: {
+//    el: '.swiper-scrollbar',
+//  },
+//});
+//
