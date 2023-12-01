@@ -344,7 +344,7 @@ header {
     -webkit-text-decoration-thickness: 6px !important;
 }
 .videop p svg{display: none;}
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1250px) {
     .videop img{
         max-width: 200px;
         width: 100%;
@@ -521,9 +521,18 @@ header {
         font-weight: 600;
     }
 }
+@media screen and (max-width:1250px) {
+    .aboutcontainer{
+        max-height: 620px;
+    }
+}
 @media screen and (max-width:1000px) {
     .aboutcontainer{
         max-height: 790;
+        background-color: transparent;
+    }
+    .aboutcontainer .bgs-mob{
+        top: -100;
     }
     .aboutcontainer img{
         max-height: 110%;
@@ -569,7 +578,7 @@ header {
         padding:0 10;
     }
     .about h2{
-        margin-top: 40px;
+        margin-top: 20px;
         margin-bottom: 60px;
     }
     .about h2 svg{
@@ -692,10 +701,11 @@ header {
 }
 @media screen and (max-width:790px) {
     .servicescontainer{
-        margin-top: 299
+        margin-top: 209
     }
     .mySwiper {
       max-height: 550px;
+      padding:0 10;
     }
     .swiper1 {
       max-width: 353px;
@@ -780,6 +790,11 @@ header {
     line-height: 18.2px;
     margin-top: 16px;
 }
+@media screen and (max-width: 1270px) {
+    .preferencecontainer{
+        height: 480;
+    }
+}
 @media screen and (max-width: 1070px) {
     .preferencecontainer{
         height: 1700;
@@ -832,7 +847,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20 10;
+    padding: 50 10;
 }
 .preference h3{
     width: 252px;
@@ -897,6 +912,12 @@ header {
 .request a.active {
   transition: 0.5s ease-out;
   letter-spacing: 1px;
+}
+@media screen and (max-width:1250px) {
+    .request{
+        height: 120px;
+        top: 0;
+    }
 }
 @media screen and (max-width: 770px) {
     .request{
@@ -982,7 +1003,11 @@ swiper-slide.swiper2 {
     position: absolute;
     right: 20%;
 }
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1250px) {
+    .licensed{
+        position: absolute;
+        right: 10%;
+    }
     
 }
 @media screen and (max-width:790px) {
@@ -1111,6 +1136,20 @@ swiper-slide.swiper2 {
     color: #07041E;
     margin-top: 15px;
 }
+@media screen and (max-width:1250px) {
+    .reviewscontainer{
+        background-color: #07041E;
+        max-height: 386px;
+    }
+    .swiper3 {
+      margin-left: 70px;
+    }
+    .mySwiper3{
+      max-height: 350px;
+      margin: 0 0 !important;
+    }
+
+}
 @media screen and (max-width: 1090px) {
     .bgs-web{
         display: none;
@@ -1140,7 +1179,7 @@ swiper-slide.swiper2 {
         max-width: 3000px;
         margin: auto;
         height: 100%;
-        max-height: 410px;
+        max-height: 450px;
     }
     .review{
         width: 100%;
@@ -1150,6 +1189,9 @@ swiper-slide.swiper2 {
     }
     .swiper3 {
       margin-left: 0px;
+    }
+    .mySwiper3{
+      margin: 50 0 !important;
     }
 }
 .formgrid{
@@ -1291,6 +1333,7 @@ form {
 }*/
 @media screen and (max-width:770px) {
     .formgrid{
+        background-color: #07041E;
         max-height: 670px;
     }
     .form{
@@ -1485,7 +1528,6 @@ footer{
         position: relative;
         width: 100%;
         max-width: 2990px;
-        margin: auto;
         height: auto;
         margin: auto;
     }
@@ -1493,9 +1535,10 @@ footer{
         display: flex;
         flex-direction: column;
         width: 100%;
-        max-width: 940px;
+        max-width: 540px;
         margin: auto;
         justify-content: space-between;
+        padding: 10 0;
     }
     .footermenu1 ul li a{
         font-size: 16px;
