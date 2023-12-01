@@ -614,7 +614,7 @@ header {
     width: 100%;
     max-width: 1260px;
     margin: auto;
-    padding: 70 0;
+    padding: 70 0 20 0;
 }
 .servicestitle{
     font-family: 'Urbanist', sans-serif;
@@ -643,7 +643,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 130%; 
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 :root {
@@ -655,7 +655,7 @@ header {
 .mySwiper {
   width: 100%;
   height: 100%;
-  max-height: 640px;
+  max-height: 690px;
   cursor: grab;
   margin: 0 auto !important;
 }
@@ -672,6 +672,7 @@ header {
   border-radius: 30px;
   background-color: #002A68;
   margin-left: 15px;
+  max-height: 650;
 }
 .swiper1 img {
   width: 100% !important;
@@ -697,16 +698,15 @@ header {
     text-align: center;
     color: #309AD7;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 @media screen and (max-width:790px) {
     .servicescontainer{
-        padding: 0 10;
+        padding: 50 10 10 10;
         margin-top: 309
     }
     .mySwiper {
-      max-height: 590px;
-      padding:0 10 0 30;
+      padding:0 10 0 10;
     }
     .swiper1 {
       max-width: 353px;
@@ -863,6 +863,7 @@ header {
     display: flex;
     flex-direction: column;
     padding-bottom: 0px;
+    padding: 10;
 }
 .preferencecard{
     padding-bottom: 30px;
@@ -922,9 +923,9 @@ header {
 }
 @media screen and (max-width: 770px) {
     .request{
-        height: 120px;
+        height: 20px;
         top: 50%;
-        transform: translateY(-50%);
+        transform: translateY(200%);
     }
 
 }
@@ -1018,10 +1019,10 @@ swiper-slide.swiper2 {
     width: 100%;
     max-width: 3290px;
     margin: auto;
-    padding: 70px 20px 120px 20;
+    padding: 0px 20px 120px 10;
 }
 swiper-container.mySwiper2 {
-  max-height: 465px;
+  max-height: 460px;
   cursor: grab;
   margin: 0 !important;
 }
@@ -1040,10 +1041,11 @@ swiper-slide.swiper2 {
   object-position: center;
 }
 .licensed{
-    position: absolute;
+    position: relative;
+    display: block;
     left: 50%;
-    transform: translateX(-50%);
-    margin-top: 203%;
+    top: 50%;
+    transform: translate(-50%,1150%);
 }
 }
 
