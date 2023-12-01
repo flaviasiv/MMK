@@ -710,7 +710,7 @@ header {
 }
 @media screen and (max-width:790px) {
     .servicescontainer{
-        padding: 50 10 10 10;
+        padding: 30 10 10 10;
         margin-top: 309
     }
     .mySwiper {
@@ -719,6 +719,7 @@ header {
     .swiper1 {
       max-width: 353px;
       margin-left: 0px;
+      max-height: 640;
     }
 }
 .preferencecontainer{
@@ -900,7 +901,8 @@ header {
     width: 100%;
     max-width: 2990px;
     margin: auto;
-    height: 10px;
+    height: 55px;
+    padding-top: 50;
 }
 .request a{
     display: block;
@@ -923,20 +925,6 @@ header {
   transition: 0.5s ease-out;
   letter-spacing: 1px;
 }
-@media screen and (max-width:1250px) {
-    .request{
-        height: 120px;
-        top: 0;
-    }
-}
-@media screen and (max-width: 770px) {
-    .request{
-        height: 20px;
-        top: 50%;
-        transform: translateY(200%);
-    }
-
-}
 .portifoliotitle p{
     max-width: 600px;
 font-family: 'Urbanist', sans-serif;
@@ -952,6 +940,7 @@ text-align: center;
     max-width: 3290px;
     margin: auto;
     padding: 70px 10px;
+    height: auto;
 }
 .portifolio{
     width: 100%;
@@ -1026,8 +1015,8 @@ swiper-slide.swiper2 {
     background-color: #fff;
     width: 100%;
     max-width: 3290px;
-    margin: auto;
-    padding: 50px 20px 120px 10;
+    margin: 0 auto;
+    padding: 0px 20px 150px 10;
 }
 swiper-container.mySwiper2 {
   max-height: 460px;
@@ -1053,7 +1042,7 @@ swiper-slide.swiper2 {
     display: block;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,1150%);
+    transform: translate(-50%,1200%);
 }
 }
 
