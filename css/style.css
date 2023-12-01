@@ -532,7 +532,7 @@ header {
         background-color: transparent;
     }
     .aboutcontainer .bgs-mob{
-        top: -120;
+        top: -110;
     }
     .aboutcontainer img{
         max-height: 110%;
@@ -558,7 +558,7 @@ header {
         font-size: 14px;
         font-style: normal;
         font-weight: 600;
-        line-height: 130%;
+        line-height: 125%;
         margin-top: 40px;
         max-width: 450px;
         margin: auto;
@@ -923,7 +923,7 @@ header {
 @media screen and (max-width: 770px) {
     .request{
         height: 120px;
-        top: 75;
+        top: 50;
     }
 
 }
@@ -1042,7 +1042,7 @@ swiper-slide.swiper2 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 202%;
+    margin-top: 203%;
 }
 }
 
