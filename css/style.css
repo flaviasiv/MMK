@@ -923,7 +923,8 @@ header {
 @media screen and (max-width: 770px) {
     .request{
         height: 120px;
-        top: 50;
+        top: 50%;
+        transform: translateY(50%);
     }
 
 }
@@ -1020,7 +1021,7 @@ swiper-slide.swiper2 {
     padding: 70px 20px 120px 20;
 }
 swiper-container.mySwiper2 {
-  max-height: 470px;
+  max-height: 465px;
   cursor: grab;
   margin: 0 !important;
 }
