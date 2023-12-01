@@ -532,7 +532,7 @@ header {
         background-color: transparent;
     }
     .aboutcontainer .bgs-mob{
-        top: -100;
+        top: -120;
     }
     .aboutcontainer img{
         max-height: 110%;
@@ -569,7 +569,7 @@ header {
 }
 @media screen and (max-width:800px) {
     .aboutcontainer{
-        max-height: 900;
+        max-height: auto;
     }
     .aboutcontainer img{
         max-height: none;
@@ -578,7 +578,7 @@ header {
         padding:0 10;
     }
     .about h2{
-        margin-top: 20px;
+        margin-top: 40px;
         margin-bottom: 60px;
     }
     .about h2 svg{
@@ -702,7 +702,7 @@ header {
 @media screen and (max-width:790px) {
     .servicescontainer{
         padding: 0 10;
-        margin-top: 289
+        margin-top: 309
     }
     .mySwiper {
       max-height: 590px;
@@ -923,7 +923,7 @@ header {
 @media screen and (max-width: 770px) {
     .request{
         height: 120px;
-        top: 55;
+        top: 75;
     }
 
 }
