@@ -318,7 +318,7 @@ header {
     transform: translate(-50%, -50%);
 }
 .videop img{
-    max-width: 300px;
+    max-width: 350px;
     width: 100%;
     height: 100%;
     margin: auto;
@@ -418,8 +418,8 @@ header {
     display: block;
     position: absolute;
     justify-content: center;
-    top: 139px;
-    left: 14%;
+    top: 50px;
+    left: 42%;
 }
 .abouttext{ 
     display: flex;
@@ -466,17 +466,17 @@ header {
 .aboutreveal.reveal.active{
     transform: translateX(0px);
     opacity: 1;
-}
-/*.cards.reveal{
+}*/
+.reveal{
     position: relative;
     transform: translateX(-150%);
     opacity: 0;
     transition: 1s all ease;
 }
-.cards.reveal.active{
+.reveal.active{
     transform: translateX(0%);
     opacity: 1;
-}*/
+}
 
 @media screen and (max-width:1600px) {
     .aboutcontainer{
@@ -985,7 +985,7 @@ swiper-container.mySwiper2 {
   margin: 0 !important;
 }
 swiper-slide.swiper2 {
-  max-width: 466px;
+  max-width: 476px;
   border-radius: 30px;
   margin-left: 0px;
 }
