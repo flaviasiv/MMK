@@ -457,16 +457,6 @@ header {
     line-height: 130%;
     font-weight: 600;
 }
-/*
-.aboutreveal.reveal{
-    transform: translateX(-150%);
-    opacity: 0;
-    transition: 1s all ease;
-}
-.aboutreveal.reveal.active{
-    transform: translateX(0px);
-    opacity: 1;
-}*/
 .reveal{
     position: relative;
     transform: translateX(-150%);
@@ -529,9 +519,16 @@ header {
         font-weight: 600;
     }
 }
-@media screen and (max-width:1250px) {
+@media screen and (max-width:1290px) {
     .aboutcontainer{
-        max-height: 620px;
+        max-height: 635px;
+    }
+    .about h2 svg{
+        display: block;
+        position: absolute;
+        justify-content: center;
+        top: 55px;
+        left: 42%;
     }
 }
 @media screen and (max-width:1000px) {
@@ -1137,17 +1134,17 @@ swiper-slide.swiper2 {
     color: #07041E;
     margin-top: 15px;
 }
-@media screen and (max-width:1250px) {
+@media screen and (max-width:1290px) {
     .reviewscontainer{
         background-color: #07041E;
-        max-height: 386px;
+        max-height: 420px;
     }
     .swiper3 {
       margin-left: 70px;
     }
     .mySwiper3{
-      max-height: 350px;
-      margin: 0 50 !important;
+      max-height: 390px;
+      margin: 40 50 !important;
     }
 
 }
@@ -1332,6 +1329,12 @@ form {
         gap: 20px;
     }
 }*/
+@media screen and (max-width:1290px) {
+    .formgrid{
+        background-color: #07041E;
+        max-height: 670px;
+    }
+}
 @media screen and (max-width:770px) {
     .formgrid{
         background-color: #07041E;
