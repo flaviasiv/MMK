@@ -799,14 +799,15 @@ header {
     line-height: 18.2px;
     margin-top: 16px;
 }
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1299px) {
     .preferencecontainer{
-        height: 480;
+        max-height: 565;
     }
 }
 @media screen and (max-width: 1070px) {
     .preferencecontainer{
         height: 1700;
+        max-height: 1700;
     }
 .preference {
     display: flex;
@@ -850,7 +851,8 @@ header {
 }
 @media screen and (max-width: 870px) {
     .preferencecontainer{
-        height: auto;
+        height: 1200;
+        background-color: #07041E;
     }
 .preference {
     display: flex;
@@ -901,7 +903,8 @@ header {
     max-width: 2990px;
     margin: auto;
     height: 55px;
-    padding-top: 50;
+    padding-top: 0;
+    margin-top: -25;
 }
 .request a{
     display: block;
@@ -923,6 +926,19 @@ header {
 .request a.active {
   transition: 0.5s ease-out;
   letter-spacing: 1px;
+}
+@media screen and (max-width: 1270px) {
+    .request{
+        padding-top: 0;
+        margin-top: 0;
+    }
+}
+@media screen and (max-width:790px) {
+    
+.request{
+    padding-top: 0;
+    margin-top: -25;
+}
 }
 .portifoliotitle p{
     max-width: 600px;
