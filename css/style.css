@@ -617,7 +617,7 @@ header {
 }
 .services{
     width: 100%;
-    max-width: 1260px;
+    max-width: 3960px;
     margin: auto;
     padding: 70 0 20 0;
 }
@@ -675,7 +675,7 @@ header {
   justify-content: center;
   max-width: 383px;
   border-radius: 30px;
-  background-color: #002A68;
+  background-color: #07041E;
   margin-left: 15px;
   max-height: 650;
 }
@@ -723,7 +723,8 @@ header {
     width: 100%;
     max-width: 2990px;
     margin: auto;
-    height: 700;
+    height: 100%;
+    max-height: 700;
 }
 .preference{
     z-index: 999;
@@ -736,6 +737,9 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 80px 50px 40px 50px;
+}
+.preferencecontainer .bgs-web{
+    max-height: 700px;
 }
 .preference h3{
     z-index: 9;
@@ -936,12 +940,12 @@ text-align: center;
     width: 100%;
     max-width: 3290px;
     margin: auto;
-    padding: 70px 10px;
+    padding: 70px 0px;
     height: auto;
 }
 .portifolio{
     width: 100%;
-    max-width: 1260px;
+    max-width: 3960px;
     margin: auto;
 }
 .portifoliotitle{
@@ -1044,11 +1048,14 @@ swiper-slide.swiper2 {
 }
 
 .bgs-web{
+    display: block;
     pointer-events: none;
     position: absolute;
     width: 100%;
+    object-fit: cover;
     max-width: 2999px;
-    max-height: 700px;
+    max-height: 100%;
+    flex-shrink: 0;
     z-index: 0;
 }
 .bgs-mob{display: none;}
@@ -1058,7 +1065,7 @@ swiper-slide.swiper2 {
     max-width: 3000px;
     margin: auto;
     height: 100%;
-    max-height: 500px;
+    max-height: 640px;
 }
 .review{
     display: block;
@@ -1134,10 +1141,10 @@ swiper-slide.swiper2 {
     color: #07041E;
     margin-top: 15px;
 }
-@media screen and (max-width:1290px) {
+@media screen and (max-width:1390px) {
     .reviewscontainer{
         background-color: #07041E;
-        max-height: 420px;
+        max-height: 410px;
     }
     .swiper3 {
       margin-left: 70px;
@@ -1157,8 +1164,10 @@ swiper-slide.swiper2 {
         pointer-events: none;
         position: absolute;
         width: 100%;
+        object-fit: cover;
         max-width: 2999px;
-        max-height: 1700px;
+        max-height: 100%;
+        flex-shrink: 0;
         z-index: 0;
     }
     .review{
@@ -1198,8 +1207,9 @@ swiper-slide.swiper2 {
     width: 100%;
     max-width: 2990px;
     height: 100%;
-    max-height: 750px;
+    max-height: 800px;
     margin: auto;
+    background-color: #07041E;
     padding: 50px 0;
 }
 .form {
