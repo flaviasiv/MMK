@@ -478,19 +478,15 @@ header {
         padding:0 80;
     }
     .about h2{
-        margin-top: 40px;
+        margin-top: 0px;
         margin-bottom: 20px;
     }
     .about h2 svg{
         display: block;
         position: absolute;
         justify-content: center;
-        top: 105px;
-        left: 22%;
-    }
-    .abouttext{ 
-        margin: auto;
-        margin-top: 10px;
+        top: 50px;
+        left: 42%;
     }
     .abouttext p{
         font-size: 14px;
@@ -552,7 +548,7 @@ header {
         margin-bottom: 60px;
     }
     .about h2 svg{
-        top: 105px;
+        top: 50px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -585,18 +581,18 @@ header {
         padding:0 10;
     }
     .about h2{
-        margin-top: 40px;
+        margin-top: 0px;
         margin-bottom: 60px;
     }
     .about h2 svg{
-        top: 105px;
+        top: 50px;
         left: 50%;
         transform: translateX(-50%);
     }
     .abouttext{ 
         max-width: 900px;
         margin: auto;
-        margin-top: 10px;
+        margin-top: -50px;
     }
     .abouttext p{
         font-size: 14px;
