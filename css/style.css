@@ -1086,7 +1086,7 @@ swiper-slide.swiper2 {
     width: 100%;
     max-width: 1340px;
     margin: auto;
-    padding: 0 50;
+    padding: 0 0;
 }
 .reviewstitle h2{
     position: relative;
@@ -1117,12 +1117,17 @@ swiper-slide.swiper2 {
   background: #fff;
   display: flex;
   justify-content: center;
-  max-width: 283px;
+  max-width: 310px;
   max-height: 300;
   border-radius: 23px;
   background-color: #fff;
-  margin-left: 105px;
-  padding: 30px 16px;
+  margin-left: 17px;
+  padding: 18px 16px;
+}
+.swiper3 .servicescard{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 .swiper3 .servicescard svg {
   width: 100% !important;
@@ -1130,14 +1135,14 @@ swiper-slide.swiper2 {
   object-position: center;
 }
 .swiper3 p{
-    max-width: 250px;
+    max-width: 300px;
     font-size: 14px;
     font-weight: 600;
     line-height: 18px;
     text-align: center;
     color: #07041E;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 .swiper3 h2{
     font-size: 24px;
@@ -1145,7 +1150,7 @@ swiper-slide.swiper2 {
     line-height: 24px;
     text-align: center;
     color: #07041E;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .swiper3 h6{
     font-size: 12px;
@@ -1153,7 +1158,7 @@ swiper-slide.swiper2 {
     line-height: 12px;
     text-align: center;
     color: #07041E;
-    margin-top: 15px;
+    margin-top: 8px;
 }
 @media screen and (max-width:1390px) {
     .reviewscontainer{
@@ -1161,11 +1166,11 @@ swiper-slide.swiper2 {
         max-height: 410px;
     }
     .swiper3 {
-      margin-left: 70px;
+      margin-left: 10px;
     }
     .mySwiper3{
       max-height: 390px;
-      margin: 40 50 !important;
+      margin: 40 0 !important;
     }
 
 }
