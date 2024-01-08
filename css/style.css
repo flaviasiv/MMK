@@ -1085,14 +1085,14 @@ swiper-slide.swiper2 {
     max-width: 3000px;
     margin: auto;
     height: 100%;
-    max-height: 640px;
+    max-height:600px;
 }
 .review{
     display: block;
     width: 100%;
     max-width: 1340px;
     margin: auto;
-    padding: 0 0;
+    padding: 40 0;
 }
 .reviewstitle h2{
     position: relative;
@@ -1170,6 +1170,9 @@ swiper-slide.swiper2 {
     .reviewscontainer{
         background-color: #07041E;
         max-height: 440px;
+    }
+    .review{
+    padding: 0 0;
     }
     .swiper3 {
       margin-left: 10px;
