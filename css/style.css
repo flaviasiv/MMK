@@ -895,16 +895,16 @@ header {
 }
 }
 .request{
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     max-width: 2990px;
     margin: auto;
-    height: 55px;
+    height: 0;
     padding-top: 0;
-    margin-top: -25;
+    z-index: 99;
 }
 .request a{
     display: block;
@@ -917,10 +917,11 @@ header {
     align-items: center;
     gap: 8px;
     border-radius: 72px;
-    background: #309AD7;
-    color: #07041E;
+    background: #E0B451;
+    color: #070707;
     font-size: 18px;
     font-weight: 700;
+    margin-top: -22px;
 }
 .request a:hover,
 .request a.active {
@@ -934,10 +935,15 @@ header {
     }
 }
 @media screen and (max-width:790px) {
-    
 .request{
     padding-top: 0;
     margin-top: -25;
+}
+.request a{
+    width: 189px;
+    height: 40px;
+    padding: 16px 32px;
+    font-size: 14px;
 }
 }
 .portifoliotitle p{
