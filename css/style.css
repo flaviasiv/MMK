@@ -937,7 +937,7 @@ header {
 @media screen and (max-width:790px) {
 .request{
     padding-top: 0;
-    margin-top: -25;
+    margin-top: 10;
 }
 .request a{
     width: 189px;
@@ -1168,8 +1168,7 @@ swiper-slide.swiper2 {
 }
 @media screen and (max-width:1390px) {
     .reviewscontainer{
-        background-color: #07041E;
-        max-height: 440px;
+        max-height: 560px;
     }
     .review{
     padding: 0 0;
@@ -1181,7 +1180,20 @@ swiper-slide.swiper2 {
       max-height: 340px;
       margin: 40 0 !important;
     }
-
+    .reviewbg{
+        display: none;
+    }
+    .reviewbgm{
+        display: block;
+        pointer-events: none;
+        position: absolute;
+        width: 100%;
+        object-fit: cover;
+        max-width: 2999px;
+        max-height: 100%;
+        flex-shrink: 0;
+        z-index: 0;
+    }
 }
 @media screen and (max-width: 1090px) {
     .bgs-web{
@@ -1209,12 +1221,15 @@ swiper-slide.swiper2 {
     }
 }
 @media screen and (max-width: 790px) {
+    .reviewstitle h2{
+        padding: 23px 0 0 0;
+    }
     .reviewscontainer{
         width: 100%;
         max-width: 3000px;
         margin: auto;
         height: 100%;
-        max-height: 450px;
+        max-height: 445px;
     }
     .review{
         width: 100%;
@@ -1226,7 +1241,7 @@ swiper-slide.swiper2 {
       margin-left: 0px;
     }
     .mySwiper3{
-      margin: 50 0 !important;
+      margin: 30 0 !important;
     }
 }
 .formgrid{
@@ -1237,7 +1252,6 @@ swiper-slide.swiper2 {
     height: 100%;
     max-height: 800px;
     margin: auto;
-    background-color: #07041E;
     padding: 50px 0;
 }
 .form {
@@ -1369,8 +1383,8 @@ form {
 }*/
 @media screen and (max-width:1290px) {
     .formgrid{
-        background-color: #07041E;
         max-height: 699px;
+        padding: 0;
     }
 }
 @media screen and (max-width:770px) {
