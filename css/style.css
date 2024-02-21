@@ -958,7 +958,8 @@ text-align: center;
 .portifoliocontainer{
     background-color: #fff;
     width: 100%;
-    max-width: 3290px;
+    /* max-width: 3290px; */
+    max-width: 600px;
     margin: auto;
     padding: 70px 0px;
     height: auto;
