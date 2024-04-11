@@ -461,8 +461,8 @@ header {
 }
 .reveal{
     position: relative;
-    transform: translateX(-150%);
-    opacity: 0;
+    transform: translateX(-50%);
+    opacity: 0.2;
     transition: 1s all ease;
 }
 .reveal.active{
@@ -849,7 +849,7 @@ header {
     max-width: 350;
 }
 }
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 970px) {
     .preferencecontainer{
         height: 1200;
         background-color: #07041E;
@@ -1338,51 +1338,6 @@ form {
     font-weight: 500;
     line-height: 150%;
 }
-/*@media screen and (max-width:1000px) {    
-    .form{
-        position: absolute;
-        display: block;
-        right: 0;
-        top: 30;
-        left: 0;
-        width: 460px;
-        justify-content: right;
-        margin: auto;
-        height: 450px;
-    }
-    form {
-        width: 100%;
-        list-style: none;
-        display: flex;
-        justify-content: right;
-        flex-direction: column;
-        gap: 17px;
-    }
-    #form input, textarea{
-        width: 100%;
-        list-style: none;
-        border-radius: 16px;
-        padding: 10px;
-    }
-    #form input{
-        height:  46px;    
-    }
-    #form button{
-        margin-top: 5px;
-        width: 110px;
-        border-radius: 5px;
-        list-style: none;
-        color: #309AD7;
-        border-radius: 16px;
-        padding: 8px;
-        margin: auto;
-        cursor: pointer;
-    }
-    .formgroup1, .formgroup2{
-        display: flex;
-        gap: 20px;
-    }
-}*/
 @media screen and (max-width:1290px) {
     .formgrid{
         max-height: 699px;
@@ -1689,150 +1644,3 @@ footer{
 :root {
     --scroll: 0
 }
-/*
-.teamcontainer{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    width: 100%;
-    max-width: 2990px;
-    margin: auto;
-    align-items: center;
-    color: #07041E;
-}
-.teamcontainer h2{
-    margin-top: 60px;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-family: 'Urbanist';
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-}
-.teamcontainer h2 svg{
-    margin-top: 16px;
-}
-.teamtitle{
-max-width: 800px;
-text-align: center;
-margin-bottom: 30px;
-}
-
-.teamgrid{
-    display: flex;
-    justify-content: space-between;
-    height: auto;
-    width: 100%;
-    max-width: 1016px;
-    margin: auto;
-    margin-bottom: 100px;
-    text-align: center;
-}
-.teamgrid .teamgridcard h3{
-    margin-top: 32px;
-    font-family: 'Urbanist', sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-}
-.teamgrid .teamgridcard p{
-    margin-top: 16px;
-    font-family: 'Urbanist', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    opacity: 0.3;
-}
-.teamgrid .teamgridcard a{
-    padding-top: 16px;
-    color: var(--high-tiffany, #9BEBEC);
-    font-family: 'Urbanist';
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    text-decoration: none;
-    color: #07041E;
-    opacity: 0.6;
-}
-.teamgridcard img{
-    width: 100%;
-}
-.teamgridcard:hover > img{
-    width: calc(100% + 5%);
-    margin-left: -2.5%;
-    margin-bottom: -3%;
-    transition: 1s all ease;
-}
-@media screen and (max-width:990px) {
-    .teamcontainer{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        width: 100%;
-        max-width: 2990px;
-        margin: auto;
-        color: #FFF;
-        align-items: center;
-    }
-    .teamcontainer h2{
-        margin-top: 60px;
-        margin-bottom: 80px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        font-family: 'Urbanist';
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 600;
-    }
-    .teamcontainer h2 svg{
-        margin-top: 16px;
-    }
-    .teamgrid{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: auto;
-        width: 100%;
-        max-width: 1116px;
-        margin: auto;
-        color: #FFF;
-        margin-bottom: 20px;
-        text-align: left;
-    }
-    .teamgridcard{
-        margin: auto;
-        margin-bottom: 80px;
-    }
-    .teamgridcard h3{
-        margin-top: 22px;
-        font-family: 'Urbanist', sans-serif;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 400;
-    }
-    .teamgridcard p{
-        margin-top: 24px;
-        font-family: 'Urbanist', sans-serif;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 158%; 
-        opacity: 0.3;
-    }
-    .teamgridcard a{
-        color: var(--high-tiffany, #9BEBEC);
-        font-family: 'Urbanist';
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 600;
-        text-decoration: none;
-        color: #07041E;
-        opacity: 0.6;
-    }
-    
-}*/
