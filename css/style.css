@@ -1417,15 +1417,16 @@ footer{
 .footergrid{
     display: flex;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1540px;
     margin: auto;
     justify-content: space-between;
-    padding: 10px 50px 0 0;
+    align-items: center;
+    padding: 10px 50px 0 50px;
 }
 .footermenu1{
     display: flex;
     justify-content: center;
-    width: 288px;
+    width: auto;
 }
 .footermenu1 ul li, .hours ul{
     list-style: none;
@@ -1466,7 +1467,7 @@ footer{
 .footerimglogo{
     display: flex;
     justify-content: center;
-    width: 288px;
+    width: auto;
     padding: 50 0 20 0; 
 }
 .footerimglogo img{
@@ -1475,12 +1476,12 @@ footer{
     margin-left: auto;
     margin-right: auto;
     margin-top: -50px;
-    width: 200px;
+    width: auto;
 }
 .adress{
     display: flex;
     justify-content: right;
-    width: 188px;
+    width: auto;
     height: 50px;
     margin-top: 50px;
 }
@@ -1494,7 +1495,7 @@ footer{
 }
 .footersocials{
     justify-content: right;
-    width: 108px;
+    width: auto;
     margin-top: 35px;
 }
 .footersocials p{
